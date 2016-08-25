@@ -1,0 +1,83 @@
+#Container{    
+    margin:0 auto;/*设置整个容器在浏览器中水平居中*/    
+}
+#header{    
+    background:#66CCFF;
+}
+h1{margin-bottom:0;}
+#row{margin:0 auto;clear:both;}
+#rowname{text-align:center;font-weight:bold}
+#rackname{width:197px;
+		height:10px;		
+		float:top;
+		text-align:center;
+ }
+#list{width:197px;float:left;margin-left:5px;}
+#rack{width:197px;
+height:606px;
+margin:20px;
+float:left;
+background-image:url('serverico/jp.gif');
+display:inline;
+}
+/*以下rackfloor 匹配显示图片高度*/
+#rackfloor{width:166px;
+height:13px;
+margin-left:27px;
+float:bottom;
+clear:both;
+}
+#one_nu{width:166px; height:14px;vertical-align:center;}
+#net_nu{width:166px; height:13px;vertical-align:center;margin-bottom:2px;}
+
+#rackfloor2{width:166px;
+height:26px;
+margin-left:27px;
+border-color:#66CCFF;
+text-align::bottom;
+clear:both;
+}
+#two_nu{width:166px; height:25px;vertical-align:center;margin-top:3px;}
+
+#rackfloor4{width:166px;
+height:52px;
+margin-left:27px;
+border-color:#66CCFF;
+text-align::bottom;
+clear:both;
+}
+#four_nu{width:166px; height:52px;vertical-align:center;margin-top:3px;}
+
+#rackfloor10{width:166px;
+height:130px;
+margin-left:27px;
+border-color:#66CCFF;
+text-align::bottom;
+clear:both;
+}
+#ten_nu{width:80px; height:130px;vertical-align:center;}
+
+#rackfloor21{width:166px;
+height:273px;
+margin-left:27px;
+border-color:#66CCFF;
+text-align::bottom;
+clear:both;
+}
+#Twenty_one{width:166px; height:273px;vertical-align:center;margin-top:3px;}
+
+.displaydiv{
+    filter:Alpha(opacity=90);
+	display:none;
+	position:absolute; 
+	width:250px;
+	BORDER-RIGHT: 2px outset; 
+	BORDER-TOP: 1px outset; 
+	BACKGROUND: #ffffff; 
+	BORDER-LEFT: 1px outset; 
+	BORDER-BOTTOM: 2px outset; 
+	text-align:left;
+    font-weight:bold;
+}
+
+#footer{background:#66CCFF;clear:both;text-align:center;}
